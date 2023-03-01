@@ -1,0 +1,193 @@
+body{
+    margin: 0;
+    
+}
+.yummy{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 530px;
+    padding: 2% 0 0 0;
+    margin-left: 18%;
+}
+.yummy .cap{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 79px;
+}
+#logo_yummy{
+    width: 9%;
+    height: 98%;
+}
+.yummy .cap p{
+    font-family: 'Montserrat', sans-serif;
+    color: #774E2E;
+    font-size: 12px;
+}
+.yummy .cap a{
+    text-decoration: none;
+}
+.yummy .cap p:hover{
+    color: #F37F34;
+    transition: 0.1s;
+}
+.par{
+    display: flex;
+    justify-content: space-between;
+    width: 47%;
+    font-family: 'Montserrat';
+}
+.pug{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 451px;
+}
+#first{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 64px;
+    color: #F37F34;
+    margin-top: 22%;
+}
+#second{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 64px;
+    color: #774E2E;
+    margin-top: -10%;
+}
+.pug p{
+    font-family: 'Montserrat', sans-serif;
+    color: #774E2E;
+    margin-top: -8%;
+    font-size: 12px;
+}
+.pug button{
+    width: 70%;
+    height: 50px;
+    background-color: #774E2E;
+    color: white;
+    border: 0;
+    margin-top: 4%;
+}
+.pug button:hover{
+    transition: 0.5s;
+    background-color: white;
+    color: #774E2E;
+    border: 1px solid #774E2E;
+}
+.yummy .dog{
+        width: 50%;
+        height: 468px;
+}
+.dog img{
+    width: 100%;
+    height: 491px;
+    margin-left: 2%;
+}
+.favourite{
+    width: 100%;
+    background-color: #FFF9EA;
+    height: 800px;
+    margin-top: 14%;
+}
+.favourite h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 7%;
+    font-size: 64px;
+    color: #F37F34;
+    font-family: 'Montserrat';
+}
+.favourite .box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+        padding-left: 163px;
+            padding-right: 146px;
+    box-sizing: border-box;
+}
+.favourite .box .card{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 350px;
+
+    box-sizing: border-box;
+    background-color: white;
+    text-align: center;
+}
+.favourite .box .card:hover{
+    width: 35%;
+    height: 400px;
+    transition: 0.2s;
+    background-color: #F37F34;
+}
+.favourite .box .card h3{
+    color: #673B19;
+    font-family: 'Montserrat';
+}
+.favourite .box .card p{
+    color: #774E2E;
+    font-family: 'Montserrat';
+}
+.advice_yummy{
+    display: flex;
+       flex-direction: row;
+        width: 70%;
+        height: 800px;
+        padding: 2% 0 0 0;
+        margin-left: 18%;
+}
+.advice_yummy .left_side{
+    display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 800px;
+}
+.advice_yummy .left_side h2{
+    color: #F37F34;
+    font-size: 72px;
+    font-weight: bold;
+    font-size: 72px;
+    font-family: 'Montserrat';
+}
+.advice_yummy .left_side p{
+    width: 100%;
+    color: #774E2E;
+    font-family: 'Montserrat';
+}
+.advice_yummy .left_side li{
+    color: #774E2E;
+    font-size: 16px;
+    margin-bottom: 1%;
+    font-family: 'Montserrat';
+}
+.advice_yummy .right_side{
+   width: 50%;
+}
+.advice_yummy .right_side img{
+    padding: 10% 0 0 0;
+        width: 100%;
+        height: 735px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #774E2E;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-size: 22px;
+}
+footer .end{
+    display: contents;
+    margin-left: 37%;
+}
+footer img{
+        margin-right: 15%;
+}
